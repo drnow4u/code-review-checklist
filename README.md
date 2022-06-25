@@ -5,6 +5,8 @@ What should be check during code review
 - [ ] All business requirements described in ticket are implemented
 - [ ] Function or method precondition
 - [ ] Function or method postcondition
+- [ ] Code coverage
+- [ ] Tests' assortions sabotage
 - [ ] Object invariants
 - [ ] Return value contract
 
