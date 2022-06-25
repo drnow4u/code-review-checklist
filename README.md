@@ -1,6 +1,13 @@
 # Code Review Checklist
 What should be check during code review
 
+## Check list
+- [ ] Function or method precondition
+- [ ] Function or method postcondition
+- [ ] Object invariants
+- [ ] Return value contract
+
+
 ## Return value contract
 
 ```java
