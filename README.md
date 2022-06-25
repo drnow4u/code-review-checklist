@@ -2,6 +2,7 @@
 What should be check during code review
 
 ## Check list
+- [ ] All business requirements described in ticket are implemented
 - [ ] Function or method precondition
 - [ ] Function or method postcondition
 - [ ] Object invariants
