@@ -2,6 +2,9 @@
 What should be check during code review
 
 ## Check list
+
+You can copy below checklist to your review in GitHub and GitLab.
+
 - [ ] All business requirements described in ticket are implemented
 - [ ] Function or method precondition
 - [ ] Function or method postcondition
