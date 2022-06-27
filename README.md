@@ -17,6 +17,10 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
 - [ ] Parametrized tests
 
+## Object invariants
+
+* Java - constraints
+* SQL - `NOT NULL`, `CONSTRAINT CHECK`
 
 ## Return value contract
 
@@ -32,3 +36,5 @@ The contract can change for `vehicleService.findEnabledForOrganisation(organisat
 ## Parametrized tests
 
 During development new tests are added to cover all edgecase. It can happen that 2 or more tests are differ only with value of parameter. In such situation common code should be extracted and parameter in test should be used with e.g. `@ParameterizedTest` in Junit 
+
+
