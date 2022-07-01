@@ -5,6 +5,7 @@ What should be check during code review
 
 You can copy below checklist to your review in GitHub and GitLab.
 
+```
 - [ ] All business requirements described in ticket are implemented
 - [ ] Function or method precondition
 - [ ] Function or method postcondition
@@ -16,6 +17,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Endpoint test case: happy and unhappy path, security (authorization, Content Security Policy, etc.)
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
 - [ ] Parametrized tests
+```
 
 ## Object invariants
 
