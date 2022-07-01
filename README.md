@@ -14,7 +14,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Object invariants
 - [ ] Return value contract
 - [ ] Test case: happy and unhappy path
-- [ ] Endpoint test case: happy and unhappy path, security (authorization, Content Security Policy, etc.)
+- [ ] Endpoint test case: happy and unhappy path, security (authorisation, Content Security Policy, etc.)
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
 - [ ] Parametrised tests
 ```
