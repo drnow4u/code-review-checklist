@@ -10,7 +10,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Function or method precondition
 - [ ] Function or method postcondition
 - [ ] Code coverage
-- [ ] Tests' assortions sabotage
+- [ ] Tests' assertions sabotage
 - [ ] Object invariants
 - [ ] Return value contract
 - [ ] Test case: happy and unhappy path
