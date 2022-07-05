@@ -12,7 +12,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Code coverage
 - [ ] Tests' assertions sabotage
 - [ ] Object invariants
-- [ ] Return value contract
+- [ ] [Return value contract](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md#return-value-contract)
 - [ ] Test case: happy and unhappy path
 - [ ] Endpoint test case: happy and unhappy path, security (authorisation, Content Security Policy, etc.)
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
