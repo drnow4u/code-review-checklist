@@ -17,6 +17,8 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Endpoint test case: happy and unhappy path, security (authorisation, Content Security Policy, etc.)
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
 - [ ] Parametrised tests
+- [ ] DB Transaction boundary
+- [ ] Thread Safetly
 ```
 
 ## Object invariants
@@ -39,4 +41,11 @@ The contract can change for `vehicleService.findEnabledForOrganisation(organisat
 
 During development new tests are added to cover all edgecase. It can happen that 2 or more tests are differ only with value of parameter. In such situation common code should be extracted and parameter in test should be used with e.g. `@ParameterizedTest` in Junit 
 
+## DB Transaction boundary ##
 
+Is transactoin required?
+
+## Thread Safetly ##
+
+- Are used class in fields thread safe?
+- Is critical section necessary?
