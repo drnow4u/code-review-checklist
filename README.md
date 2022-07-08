@@ -19,6 +19,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Parametrised tests
 - [ ] DB Transaction boundary
 - [ ] Thread Safetly
+- [ ] Is delete of objects (Garbage Collector) or entity in DB handled correctly?
 ```
 
 ## Object invariants
