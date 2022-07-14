@@ -44,7 +44,8 @@ During development new tests are added to cover all edgecase. It can happen that
 
 ## DB Transaction boundary ##
 
-Is transactoin required?
+- Is transactoin required?
+- Is message in message queue not consumed when transaction is rolled back?
 
 ## Thread Safetly ##
 
