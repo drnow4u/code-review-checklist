@@ -18,6 +18,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
 - [ ] Parametrised tests
 - [ ] DB Transaction boundary
+- [ ] DB index
 - [ ] Thread Safety
 - [ ] Is delete of objects (Garbage Collector) or entity in DB handled correctly?
 ```
