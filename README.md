@@ -3,7 +3,7 @@ What should be check during code review
 
 ## Check list
 
-You can copy below checklist to your review in GitHub and GitLab.
+You can copy below checklist to your review in GitLab.
 
 ```
 - [ ] All business requirements described in ticket are implemented
@@ -14,7 +14,7 @@ You can copy below checklist to your review in GitHub and GitLab.
 - [ ] Object invariants
 - [ ] [Return value contract](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md#return-value-contract)
 - [ ] Test case: happy and unhappy path
-- [ ] Endpoint test case: happy and unhappy path, security (authorisation, Content Security Policy, etc.)
+- [ ] [Endpoint test case](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md#endpoint-test-case)
 - [ ] Code should not contains any secret, key or certificate, details https://owasp.org/www-project-wrongsecrets/
 - [ ] Parametrised tests
 - [ ] DB Transaction boundary
@@ -52,3 +52,11 @@ During development new tests are added to cover all edgecase. It can happen that
 
 - Are used class in fields thread safe?
 - Is critical section necessary?
+
+
+## Endpoint test case
+
+- happy
+- unhappy path
+- security (authorisation, Content Security Policy, etc.)
+- information disclosure of client A to client B or unauthenticated attacker in multi tanent application
