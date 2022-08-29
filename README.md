@@ -21,6 +21,7 @@ You can copy below checklist to your review in GitLab.
 - [ ] DB index
 - [ ] Thread Safety
 - [ ] Is delete of objects (Garbage Collector) or entity in DB handled correctly?
+- [ ] Endpoints versioning
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
 ```
