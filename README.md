@@ -22,6 +22,7 @@ You can copy below checklist to your review in GitLab.
 - [ ] Thread Safety
 - [ ] Is delete of objects (Garbage Collector) or entity in DB handled correctly?
 - [ ] Endpoints versioning
+- [ ] Value Object for e.g. UserId (wrapper class)
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
 ```
