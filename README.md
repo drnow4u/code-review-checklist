@@ -23,6 +23,8 @@ You can copy below checklist to your review in GitLab.
 - [ ] Is delete of objects (Garbage Collector) or entity in DB handled correctly?
 - [ ] Endpoints versioning
 - [ ] Value Object for e.g. UserId (wrapper class)
+- [ ] Is WireMock used to simulate communication to external services over HTTP?
+- [ ] Is TestConteiner used to simulate database?
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
 ```
