@@ -7,6 +7,7 @@ You can copy below checklist to your review in GitLab.
 
 ```
 - [ ] All business requirements described in ticket are implemented
+- [ ] A non-breaking change
 - [ ] Function or method precondition
 - [ ] Function or method postcondition
 - [ ] Code coverage
