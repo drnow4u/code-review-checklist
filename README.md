@@ -27,6 +27,7 @@ You can copy below checklist to your review in GitLab.
 - [ ] Is TestConteiner used to simulate database?
 - [ ] Unnessesry thread creation e.g. in Spring Boot controller is creating async task and doing nothing when waiting for task complition. 
 - [ ] Thread deadlock e.g. async task1 is creating async task2 and for complition. Both task are assigned to same thread pool and there is no free thread.
+- [ ] Abuse of `var` e.g. `var response = service.gettings()`
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
 ```
