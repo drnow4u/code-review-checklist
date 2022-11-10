@@ -28,6 +28,7 @@ You can copy below checklist to your review in GitLab.
 - [ ] Unnessesry thread creation e.g. in Spring Boot controller is creating async task and doing nothing when waiting for task complition. 
 - [ ] Thread deadlock e.g. async task1 is creating async task2 and for complition. Both task are assigned to same thread pool and there is no free thread.
 - [ ] Abuse of `var` e.g. `var response = service.gettings()`
+- [ ] Deserialization with fallback. When consuming data from other service always try to deserialize as stricly as possible (e.g. FAIL_ON_UNKNOWN_PROPERTIES for ObjectMapper). If it fails log error message and try again deserialize with relaxed rules. You don't want to be wake up at 2 in night becouse someone add new field.
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
 ```
