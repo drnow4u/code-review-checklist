@@ -30,6 +30,8 @@ You can copy below checklist to your review in GitLab.
 - [ ] Thread deadlock e.g. async task1 is creating async task2 and for complition. Both task are assigned to same thread pool and there is no free thread.
 - [ ] Abuse of `var` e.g. `var response = service.gettings()`
 - [ ] Deserialization with fallback. When consuming data from other service via HTTP, Kafka, JMS etc. always try to deserialize as stricly as possible (e.g. FAIL_ON_UNKNOWN_PROPERTIES for ObjectMapper). If it fails log error message and try again deserialize with relaxed rules. You don't want to be wake up at 2 in night becouse someone add new field.
+- [ ] Sensitive data in logs. Even masked data can be sensitive in some case especially when logging many masked fields.
+
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
 ```
