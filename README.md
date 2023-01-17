@@ -31,7 +31,7 @@ You can copy below checklist to your review in GitLab.
 - [ ] Abuse of `var` e.g. `var response = service.gettings()`
 - [ ] Deserialization with fallback. When consuming data from other service via HTTP, Kafka, JMS etc. always try to deserialize as stricly as possible (e.g. FAIL_ON_UNKNOWN_PROPERTIES for ObjectMapper). If it fails log error message and try again deserialize with relaxed rules. You don't want to be wake up at 2 in night becouse someone add new field.
 - [ ] Sensitive data in logs
-- [ ] Masked data can be sensitive in some case especially when logging many masked fields
+- [ ] Masked data can be sensitive in some case especially when logging many masked fields at once
 
 
 Details can be found [Code Review Checklist](https://github.com/MarcinNowak-codes/code-review-checklist/blob/main/README.md)
